@@ -6,17 +6,18 @@ The ever-growing privacy concerns are the reason for the use of open-source soft
 
 ## Steps to Replicate the Solution
 
- - Active MicroSoft Azure Account
- - Create 2 VMs, A Storage Account, A DNS Zones, A Virtual Network, A KeyVault inside a resource group. If you are useing docker images, you will be required o make use of Azure Kubernetes Services under the same resouce group. Active Directory Integrations follows suit.
- - The VM hosting Jitsi Meet should have 1 GB RAM and 1 vCPU atleast. At the very least, opt for B1s VMs.This setup will run smoothly for 10+ participants simultaneously sharing their videos in HD. It is advised to increase the RAM and CPU capabilities if you are having a lot of simulataneous conferences.  It is advised that the VM reserves a static IP, as it can come in handy at times. The individual hosting help can be found at [Jitsi Meet Hosting](https://github.com/NevinKoshyDaniel/PrivateCollabsApp/tree/main/Jitsi%20Meet)
- - The VM hosting Rocket.Chat should have 2 GB RAM and 1 vCPU atleast. At the very least, opt for B1ms VMs. This setup will run smoothly for 50+ active participants simultaneously communicating.  It is advised to increase the RAM and CPU capabilities if you are having more simultaneous users. It is advised that the VM reserves a static IP. The individual hosting help can be found at [Rocket.Chat Hosting](https://github.com/NevinKoshyDaniel/PrivateCollabsApp/tree/main/Rocket.Chat)
- - Both the VMs will require SSL certificates, and ensure they are atleast Self Signed. There will be access issues if the certificates are not signed.
+ - Active MicroSoft Azure Account 
+ - Create 2 VMs, A Storage Account, A DNS Zones, A Virtual Network, A KeyVault inside a resource group. <br> If you are useing docker images, you will be required o make use of Azure Kubernetes Services under the same resouce group. Active Directory Integrations follows suit. 
+ - The VM hosting Jitsi Meet should have 1 GB RAM and 1 vCPU atleast. At the very least, opt for B1s VMs. <br> This setup will run smoothly for 10+ participants simultaneously sharing their videos in HD. It is advised to increase the RAM and CPU capabilities if you are having a lot of simulataneous conferences.  It is advised that the VM reserves a static IP, as it can come in handy at times. <br>The individual hosting help can be found at [Jitsi Meet Hosting](https://github.com/NevinKoshyDaniel/PrivateCollabsApp/tree/main/Jitsi%20Meet)
+ - The VM hosting Rocket.Chat should have 2 GB RAM and 1 vCPU atleast. At the very least, opt for B1ms VMs. <br> This setup will run smoothly for 50+ active participants simultaneously communicating.  It is advised to increase the RAM and CPU capabilities if you are having more simultaneous users. It is advised that the VM reserves a static IP. <br>The individual hosting help can be found at [Rocket.Chat Hosting](https://github.com/NevinKoshyDaniel/PrivateCollabsApp/tree/main/Rocket.Chat)
+ - Both the VMs will require SSL certificates, and ensure they are atleast Self Signed. <br> There will be access issues if the certificates are not signed.
  - Connect to the Rocket.Chat public IP, login and configure the necessary Admin settings and kindly register the server for use.
- - Ensure the Specific ports and protocls are enabled in the Network Security Groups. Incorrect configurations would lead to no traffic, as the applications listen on specific ports, and no traffic flow rule to them will cause failures. 
+ - Ensure the Specific ports and protocols are enabled in the Network Security Groups. [_Let's Encrypt_](https://letsencrypt.org/) would be sufficient. <br>Incorrect configurations would lead to no traffic, as the applications listen on specific ports, and no traffic flow rule to them will cause failures. 
  - Ensure the Virtual Network encompossess the properly confiured Network Security Groups.
- - The DNS Zone if you are intenting to use a custom domain; Configure of the same is a simple and staright forward task.
+ - The DNS Zone comes into play if you are intenting to use a custom domain. 
  - KeyVault can be handy to store neccessary SSH credentials, and other admin specific data, especially if container instances are used.
-
+ - Azure Blob Sotrage can be made use of to provide a cloud based storage solution.
+ - Azure Active Directory Services can be made use of for enterprise identity service, with single sign-on, multifactor authentication, and conditional access needs. 
 
 ## Possible Issues and Heads-ups!
   
