@@ -31,7 +31,8 @@ To sum up, the main capabilities of the solution would be:
     Active Directory based Authentications (Need to integrate with demo)
     Analytics and Insight (Need to be integrated)
    
-    
+   
+**The major steps involved in self hosting the solution on azure is discussed [over here](https://github.com/NevinKoshyDaniel/PrivateCollabsApp/tree/main/Hosting%20Essentials).**
 
 And many more! It offers self hosting capabilities.
 
