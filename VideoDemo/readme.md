@@ -20,6 +20,7 @@ To sum up, the main capabilities of the solution would be:
     Virtual backgrounds
     Cloud Based Storage Solution (Need to integrate with demo)
     Active Directory based Authentications (Need to integrate with demo)
+    Analytics and Insight (Need to be integrated)
    
     
 
