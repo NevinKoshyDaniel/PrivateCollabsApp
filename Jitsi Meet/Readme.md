@@ -1,6 +1,6 @@
-#Jitsi Meet
+# Jitsi Meet
 
-Jitsi Meet is an Open Source Secure, Simple and Scalable Video Conferencing Software. It has a straight forward browser based approach, and comes with the following functionalities:
+Jitsi Meet is an **Open Source Secure, Simple and Scalable Video Conferencing Software**. It has a straight forward browser based approach, and comes with the following functionalities:
 
     Support for all current browsers
     Mobile applications
