@@ -32,7 +32,7 @@ To sum up, the main capabilities of the solution would be:
     Analytics and Insight (Need to be integrated)
    
    
-**The major steps involved in self hosting the solution on azure is discussed [over here](https://github.com/NevinKoshyDaniel/PrivateCollabsApp/tree/main/Hosting%20Essentials).**
+**The major steps involved in self hosting the solution on azure is discussed over [here](https://github.com/NevinKoshyDaniel/PrivateCollabsApp/tree/main/Hosting%20Essentials).**
 
 And many more! It offers self hosting capabilities.
 
