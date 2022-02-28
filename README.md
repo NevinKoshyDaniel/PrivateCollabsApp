@@ -36,6 +36,4 @@ And many more! It offers self hosting capabilities.
 
 [Application URL](https://rocketchatvm.southindia.cloudapp.azure.com/home) <br>
 
-In case of any issues, the same video is hosted at: 
-
-[Public Video Link](https://drive.google.com/file/d/19kPnGp6IFgUcZgcVeNeGnfr0jadbIydD/view?usp=sharing)
+In case of any issues, you can view a demo at: [Demo Video Link](https://drive.google.com/file/d/19kPnGp6IFgUcZgcVeNeGnfr0jadbIydD/view?usp=sharing)
